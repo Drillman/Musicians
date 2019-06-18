@@ -1,0 +1,19 @@
+{
+    "name": "drillman/musicians",
+    "description": "Concert generator",
+    "type": "project =",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas",
+            "email": "xz351@hotmail.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Music\\": "Music/",
+            "Music\\Instruments\\": "Music/Instruments/"
+        }
+    }
+}
