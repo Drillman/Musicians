@@ -1,0 +1,16 @@
+{
+  "name": "projects/musicians",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Lucas Lavander"
+      }
+  ],
+  "require": {},
+  "autoload": {
+      "psr-4": {
+          "Game\\": "src/"
+      }
+  }
+}
